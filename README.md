@@ -51,3 +51,25 @@ password
 database name
 
 ```
+Requirements
+```
+Python 2.x (original version) or compatible MySQL Python driver
+MySQL server
+mysql-python library
+```
+Install dependency:
+```
+pip install MySQL-python
+```
+
+Notes: Designed mainly for Drupal-style databases 
+       Only works with tables starting with field_data_
+       Not optimized for large datasets
+       Built for quick content length analysis, not production analytics
+
+File structure
+```
+main.py → CLI entry point
+core.py → core logic (analysis + DB helpers)
+```
+other files → optional modular structure (helpers, utilities)
