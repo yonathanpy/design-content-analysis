@@ -1,2 +1,2 @@
-def is_empty(value):
-    return value is None or value == ""
+def is_valid_command(cmd):
+    return isinstance(cmd, str) and len(cmd.strip()) > 0
