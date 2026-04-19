@@ -71,5 +71,5 @@ File structure
 ```
 main.py → CLI entry point
 core.py → core logic (analysis + DB helpers)
-```
 other files → optional modular structure (helpers, utilities)
+```
