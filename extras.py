@@ -1,2 +1,2 @@
-def info():
-    return "extra tools coming soon"
+def preview_list(data, limit=5):
+    return data[:limit]
