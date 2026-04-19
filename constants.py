@@ -1,2 +1,8 @@
-APP_NAME = "Design Content Analysis"
-VERSION = "1.0"
+COMMANDS = [
+    "search",
+    "display",
+    "stats",
+    "all",
+    "help",
+    "quit"
+]
