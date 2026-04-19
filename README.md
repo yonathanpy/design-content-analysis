@@ -38,3 +38,16 @@ Make sure MySQL is running, then:
 
 ```bash id="run1"
 python main.py
+
+```
+
+You will be asked for:
+
+
+```
+host
+user
+password
+database name
+
+```
